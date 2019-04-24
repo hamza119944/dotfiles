@@ -25,6 +25,10 @@
 (setq tab-width 4
       indent-tabs-mode nil)
 #+END_SRC
+** Matching parenthesis:
+#+BEGIN_SRC emacs-lisp
+(show-paren-mode 1)
+#+END_SRC
 ** Backup/Tmp Files:
 #+BEGIN_SRC emacs-lisp
 (setq make-backup-files nil) ;;Desactivate backups
