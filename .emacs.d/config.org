@@ -47,6 +47,11 @@
 (set-language-environment "UTF-8")
 (set-default-coding-systems 'utf-8)
 #+END_SRC
+** Theming:
+#+BEGIN_SRC emacs-lisp
+(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
+(load-theme 'solarized t)
+#+END_SRC
 * GENERAL KEY BINDINGS:
 ** Text Modifiers:
 #+BEGIN_SRC emacs-lisp
