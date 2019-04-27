@@ -42,6 +42,11 @@
 (setq-default explicit-shell-file-name "bash")
 (setq explicit-sh-args '("-login" "-i"))
 #+END_SRC
+** Unicode Support:
+#+BEGIN_SRC emacs-lisp
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8)
+#+END_SRC
 * GENERAL KEY BINDINGS:
 ** Text Modifiers:
 #+BEGIN_SRC emacs-lisp
