@@ -44,6 +44,8 @@ require("components.volume-adjust")
 --kill application before startup
 awful.spawn.with_shell("killall nm-applet")
 awful.spawn.with_shell("killall blueman-applet")
+awful.spawn.with_shell("killall pasystray")
+
 
 -- Autostart specified apps
 local apps = require("apps")
@@ -134,5 +136,7 @@ collectgarbage("setstepmul", 1000)
 --autostart applications
 awful.spawn.with_shell("blueman-applet")
 awful.spawn.with_shell("nm-applet")
+awful.spawn.with_shell("pasystray")
 awful.spawn.with_shell("xfce4-power-manager --restart")
-awful.spawn.with_shell("numlockx")
+--awful.spawn.with_shell("numlockx")
+

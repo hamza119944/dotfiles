@@ -30,7 +30,7 @@ apps.default = {
     screenshot = "gnome-screenshot",
     filebrowser = "thunar",
     browser = "firefox",
-    editor = "gedit"
+    editor = "micro"
 }
 
 -- List of apps to start once on start-up
