@@ -58,4 +58,4 @@ Terminal Font is Fira Code by default. It is possible that the font is available
 
 6. `theme.lua`: This file contains the rules for the current theme and the dpi of gaps and if the gaps should be present if only a single window is spawned in a workspace. This file can also be used for declaring and using your own custom layout icons, by placing the icons in `icons/layouts` directory.
 
-Some widgets are custon made, others are based on [Vicious library](https://github.com/vicious-widgets/vicious) 
+7. `Widgets` Some widgets are custon made, others are based on [Vicious library](https://github.com/vicious-widgets/vicious) 
