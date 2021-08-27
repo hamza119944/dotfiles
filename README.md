@@ -1,7 +1,10 @@
 ## Usage ##
 Clone the git repo in $HOME
+
 cd to directory
+
 use stow for each directory
+
 Example `stow -v awesome`
 
 ### Arabic font ###
