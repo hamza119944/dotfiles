@@ -86,6 +86,7 @@ top_panel.create = function(s)
                	-- widget = wibox.container.background
          -- },
          kbdcfg.widget,
+         vseparator,
          cpuwidget,
          vseparator,
          {

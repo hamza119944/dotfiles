@@ -28,6 +28,7 @@ xbacklight
 ```
 A module to control the brightness. But this has to be configured accoring to your machine. If it works out of the box, perfect but if not use this [guide](https://askubuntu.com/questions/823669/volume-sound-and-screen-brightness-controls-not-working).
 or [the Arch Wiki](https://wiki.archlinux.org/title/backlight#xbacklight)
+or use [Gui Brightness control](https://github.com/lordamit/Brightness)
 
 ```bash
 nm-applet 
@@ -43,6 +44,9 @@ pasystray
 The system font that has been used is [SF Text](https://github.com/perrychan1/fonts.git) or you can download from official Apple website.
 
 Terminal Font is Fira Code by default. It is possible that the font is available in the official repositories of your distro so you can install it from there or you can download from [here](https://github.com/tonsky/FiraCode)
+
+### Theme ###
+The theme used across all elements is Dracula for consistancy and also future proofing for any apps
 
 ## File Structure ##
 
